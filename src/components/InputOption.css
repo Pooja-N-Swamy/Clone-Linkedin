@@ -1,0 +1,28 @@
+.feed__inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputOption{
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.inputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption > .MuiSvgIcon-root{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.inputOption > h4{
+   font-size: 1.4rem;
+   margin-left: 8px;
+   color: gray;
+}
